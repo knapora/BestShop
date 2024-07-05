@@ -54,3 +54,43 @@
   .nav__element {
     padding: 0 26px;
   }
+  .opening {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .opening__content {
+    margin-top: 130px;
+    text-align: center;
+  }
+
+  .opening__header {
+    font-family: var(--font-raleway);
+    font-size: 40px;
+  }
+
+  .opening__heading {
+    margin-top: 20px;
+    margin-bottom: 38px;
+  }
+  .opening__image {
+    width: 100%;
+    height: auto;
+  }
+  .btn {
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    padding: 16px 65px;
+    border-radius: 40px;
+  }
+
+  .btn--primary {
+    background-color: #08a6e4;
+    border-radius: 40px;
+    box-shadow: 5px 10px 14px #07ACE629;
+  }
+  .btn--large {
+    padding: 22px 155px;
+  }
+  
