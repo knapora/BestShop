@@ -28,7 +28,29 @@
   }
   .logo {
     font-family: var(--font-raleway);
-    font-size: 2rem;
+    font-size: 32px;
     font-weight: 300;
     color: #08A6E4
+  }
+  a{
+    text-decoration: none;
+  }
+  .nav__link {
+    padding: 28px 18px 22px;
+    color: #A5A5A5;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 3.28px;
+    border-bottom: 4px solid transparent;
+    font-weight: bold;
+
+  }
+
+  .nav__link:hover {
+    color: black;
+    border-color: #08a6e4
+  }
+
+  .nav__element {
+    padding: 0 26px;
   }
